@@ -1,0 +1,19 @@
+{
+  "name": "orangehrm-employee-lifecycle-automation",
+  "version": "1.0.0",
+  "description": "Playwright + Page Object Model automation suite for OrangeHRM Employee Lifecycle Management (UI + API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install --with-deps"
+  },
+  "keywords": ["playwright", "automation", "qa", "orangehrm", "pom"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
